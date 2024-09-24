@@ -1,6 +1,11 @@
-#thi# Enter Code here
-# Read the README - under files on left
-# Delete these three lines before submitting
+# Programmers:  Caitlin Burns and Cody King
+# Course:  CS151, Professor Yalew
+# Due Date: 9/25/2024
+# Lab Assignment: 2
+# Problem Statement: This program calculates future population
+# Data In: The input requires birth rate, death rate, immigration rate, current population,and the amount of years
+# Data Out:  This program outputs the future population and if it increased or decreased
+# Credits: This code is based on the example we were given in the excel spreadsheet
 from math import ceil
 
 #this program solves for the future population of country and sees if it will increase or decrease over time
