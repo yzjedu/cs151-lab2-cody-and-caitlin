@@ -1,6 +1,7 @@
 #thi# Enter Code here
 # Read the README - under files on left
 # Delete these three lines before submitting
+from math import ceil
 
 #this program solves for the future population of country and sees if it will increase or decrease over time
 
@@ -29,6 +30,9 @@ change_in_population_int: float = (((31536000 / sec_birth_int) + (31536000 / sec
 
 #calculate the new population
 New_population = current_population_int + change_in_population_int
+
+#this rounds up to the nearest integer
+New_population = ceil(New_population)
 
 #output result to user
 print('Your population will be :', New_population)
